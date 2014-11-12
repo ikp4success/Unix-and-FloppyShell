@@ -1,5 +1,4 @@
-//Names:George Immanuel , Henderson Creighton ,Rutledge Brandon
-//Group: H
+//Names:George Immanuel
 //Project: 2
 //Objective:  to develop a floppy shell for floppy disk program
 
