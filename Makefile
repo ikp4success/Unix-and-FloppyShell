@@ -1,15 +1,15 @@
 CC = gcc
 CFLAGS = -I.
-DEPS =
-OBJ = flop.c
+DEPS = parentF.h flshell.h flop.h minsc.h
+OBJ = main.c
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-flop: $(OBJ)
+main: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
 .PHONY: clean
 
 clean:
-	rm -f *.o *~ flop
+	rm -f *.o *~ main
