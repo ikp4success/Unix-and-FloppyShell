@@ -3,6 +3,8 @@
   *Project: 3
   *Deadline: Mon Nov 17,2014
   *Objective:  To develop a floppy mini unix shell to mount and access floppy disk.
+  *Class: (System Programing Unix/C/C++) CIS340
+  *University: Cleveland State university
   */
 
 
