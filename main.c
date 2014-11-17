@@ -1,6 +1,5 @@
   /*
   *Name:George Immanuel
-  *Group: H
   *Project: 3
   *Deadline: Mon Nov 17,2014
   *Objective:  To develop a floppy mini unix shell to mount and access floppy disk.
