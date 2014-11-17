@@ -12,7 +12,7 @@ Required Modules:
 Your shell should find the build-in command (see part2) in your current working directory first. If not found, it should search the directories in the shell's pathname environment (see part2).
 You are not allowed to use system(), as it invokes the system's /bin/sh shell. You should not use execlp() or execvp(), because your shell has its own path variable (explained in part2).
 By convention, the command arguments are seperated by white spaces. Please describe your customized argument seperation rules in your README document if you have special arrangement (not recommended though). Your shell does not need to handle special characters, like ",", "?", "\", except the redirection operators (<, >) in part3 and the pipeline operator (|) required in part4.
-(30 points) In addition to those built-in commands you implemented in project2, implement the following two additional build-in commands (running in the main process rather than the child process).
+(30 points) In addition to those built-in commands you implemented in project2, implement the following two additional build-in commands (running in the main process rather than the child process) .
 cd: is a command, obviously, to change directories. You may want to use the chdir system call.
 path: is not only a command to show the current command searching pathnames (if no argument is provided), but also a utility to modify (either add or remove) the command searching pathnames.
 path (without arguments) displays the pathnames currently set. e.g., "/bin:/sbin"
