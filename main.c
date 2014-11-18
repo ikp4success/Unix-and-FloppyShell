@@ -11,7 +11,7 @@
 
 
 
-  #include <stdio.h>
+    #include <stdio.h>
   #include <stdbool.h>
   #include "parentF.h"
   #include "minsc.h"
@@ -157,12 +157,19 @@
       }else if (strcmp(cmd, "structure") == 0) {
         printError();
       }else{
-       printf("Command does not exist, type help for available commands for floppy. Also only path and cd exist because this is Parent process");
+        
+          
+         
+        if(system(line2)!=0){
+        printf("Command does not exist, type help for available commands for floppy. Also only path and cd exist because this is Parent process");
        if (errno)
        {
         perror("command failed");
       }
+     
 
+      
+      }
       printf("\n");
     }
   }
